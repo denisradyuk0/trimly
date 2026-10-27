@@ -1,6 +1,5 @@
 *.torchscript filter=lfs diff=lfs merge=lfs -text
 *.pt filter=lfs diff=lfs merge=lfs -text
 *.onnx filter=lfs diff=lfs merge=lfs -text
-
 /models/yolo11l_postavskiy/weights/best.pt -filter -diff -merge text
 /models/yolo11l_postavskiy/weights/last.pt -filter -diff -merge text
